@@ -1,0 +1,16 @@
+.homesSubmit {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+.homesSubmit:disabled {
+    background-color: #ccc; 
+    color: #999; 
+    cursor: not-allowed; 
+}

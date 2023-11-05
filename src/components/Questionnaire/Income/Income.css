@@ -1,0 +1,33 @@
+.incomeSubmit {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+
+.incomeSubmit:disabled {
+  background-color: #ccc; 
+    color: #999; 
+    cursor: not-allowed; 
+}
+
+.suggestions {
+  color: white;
+}
+
+.IncomeQuestion {
+
+}
+
+.IncomeContainer {
+  color: #274C77;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

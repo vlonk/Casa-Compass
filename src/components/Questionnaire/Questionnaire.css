@@ -1,0 +1,85 @@
+.questionnairePage {
+  background-image: url('https://www.pngmart.com/files/16/Modern-House-PNG-File.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-image: url('https://o.remove.bg/downloads/709cab35-5810-4857-b7ce-72170faeaf96/1516734049817326814free-clipart-real-estate-agents.hi-removebg-preview.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image horizontally and vertically */
+  
+}
+
+.questionnaireContainer {
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #274C77;
+  border-radius: 20px;
+  width: 100%;
+  height: 15rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.questionnaireImages img {
+  max-width: 80%;
+  height: auto; 
+}
+
+.agentImage {
+  max-height: 250px; 
+}
+
+.questionnaireStoryline {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-bottom: 20px; /* Adjust the margin as needed */
+  white-space: normal; /* Allow text to wrap to the next line */
+  display: inline; /* Set display to inline or inline-block */
+  max-width: 100%;
+}
+
+.questionnairePrompt {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #fff; /* Set a background color for the input container */
+  border-radius: 10px; /* Add rounded corners to the input container */
+  height: 100px;
+  max-width: 300px; /* Limit the maximum width of the input container */
+}
+
+/* Style the input fields */
+.creditInput {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 100%; /* Make the input fields span the full width of the container */
+  padding: 15px; /* Add padding inside the input fields */
+  border-radius: 5px; /* Add rounded corners to the input fields */
+  margin: 10px; /* Add spacing between input fields */
+}
+
+.questionnaireSubmit {
+  background-color: #3498db; /* Background color for the Submit button */
+  color: #fff; /* Text color for the Submit button */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.questionnaireSubmit:disabled {
+  background-color: #ccc; 
+  color: #999; 
+  cursor: not-allowed; 
+}
